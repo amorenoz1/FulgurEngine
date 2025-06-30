@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a"
+  "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.pdb"
+  "CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/utils/FulgurUtils.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/utils/FulgurUtils.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/utils/Logger.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/utils/Logger.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/utils/ThreadPool.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/utils/ThreadPool.cpp.o.d"
+  "CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.o"
+  "CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/FulgurEngine.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

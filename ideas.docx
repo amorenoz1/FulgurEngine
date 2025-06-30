@@ -1,0 +1,487 @@
+Game Engine Architecture: C++, GLFW, Vulkan, OpenAL
+Creating a game engine involves a modular design where various systems interact to bring a game to life. Below is a high-level structure, detailing the main components and their proposed C++ classes and header files.
+
+1. Core Engine & Application Layer
+This layer acts as the orchestrator, managing the lifecycle of the engine and its main loop.
+
+Header Files:
+
+Engine.hpp: Defines the main engine class.
+
+Application.hpp: An abstract base class or interface for game-specific applications to inherit from.
+
+EngineLogger.hpp: For logging engine events, errors, and warnings.
+
+Timer.hpp: Manages delta time and frame rate.
+
+Classes:
+
+Engine: The central class that initializes and manages all other systems (rendering, audio, input, etc.), and runs the main game loop.
+
+Application: An interface that concrete game applications implement (e.g., MyGameApp would inherit from this). It provides methods like OnInitialize(), OnUpdate(float deltaTime), OnRender(), OnShutdown().
+
+Logger: Provides static methods for different logging levels (Info, Warn, Error, Debug).
+
+Timer: Calculates frame time, total elapsed time.
+
+2. Windowing & Input System (GLFW)
+Responsible for creating and managing the application window, and processing user input.
+
+Header Files:
+
+Window.hpp: Encapsulates GLFW window management.
+
+InputManager.hpp: Handles keyboard and mouse input events.
+
+Keyboard.hpp: Static class or singleton for keyboard state.
+
+Mouse.hpp: Static class or singleton for mouse state and position.
+
+Classes:
+
+Window: Manages window creation, resizing, closing, and GL context/Vulkan surface creation via GLFW.
+
+InputManager: Collects raw input events from GLFW and dispatches them to specialized handlers.
+
+Keyboard: Provides methods to query key states (e.g., IsKeyPressed(KeyCode::W)).
+
+Mouse: Provides methods to query mouse button states and cursor position.
+
+3. Rendering System (Vulkan)
+The most complex part, handling all visual output using the Vulkan API.
+
+Header Files:
+
+Renderer.hpp: High-level interface for rendering.
+
+VulkanContext.hpp: Manages the Vulkan instance, debug messenger, and physical device selection.
+
+Device.hpp: Encapsulates the logical device, queues, and command pools.
+
+SwapChain.hpp: Manages the Vulkan swap chain, images, and image views.
+
+Pipeline.hpp: Handles graphics pipelines (vertex input, shaders, rasterization, etc.).
+
+Shader.hpp: Loads and manages SPIR-V shader modules.
+
+Buffer.hpp: Wraps Vulkan buffers (vertex, index, uniform, staging).
+
+Texture.hpp: Wraps Vulkan images and image views for textures.
+
+Mesh.hpp: Stores vertex and index data, and refers to Vulkan buffers.
+
+Material.hpp: Defines how a surface looks (shaders, textures, parameters).
+
+Camera.hpp: Manages view and projection matrices.
+
+RenderPass.hpp: Defines render pass attachments and subpasses.
+
+FrameBuffer.hpp: Attaches image views to a render pass.
+
+CommandBuffer.hpp: Records rendering commands.
+
+DescriptorSetManager.hpp: Manages descriptor set layouts and descriptor sets.
+
+PushConstant.hpp: Helper for Vulkan push constants.
+
+Synchronization.hpp: Handles semaphores and fences for GPU/CPU synchronization.
+
+Classes:
+
+Renderer: The main rendering interface, responsible for drawing scene objects.
+
+VulkanContext: Initializes Vulkan, picks a physical device, and sets up validation layers.
+
+Device: Represents the logical Vulkan device and its command queues.
+
+SwapChain: Manages the presentation surface, image acquisition, and presentation.
+
+GraphicsPipeline: Configures the fixed-function pipeline stages and shader stages.
+
+ShaderModule: Loads and compiles GLSL/HLSL to SPIR-V, then creates Vulkan shader modules.
+
+VulkanBuffer: Manages GPU memory for vertex, index, and uniform data.
+
+VulkanTexture: Manages image data on the GPU, including image views and samplers.
+
+Mesh: Stores geometry data (vertices, indices) and links to GPU buffers.
+
+Material: Binds shaders and textures to render a specific appearance.
+
+Camera: Defines the viewpoint and projection for rendering.
+
+RenderPass: Defines the rendering sequence for a frame.
+
+FrameBuffer: Binds image attachments to a RenderPass.
+
+CommandBuffer: Records and submits drawing commands to the GPU.
+
+DescriptorSetLayout, DescriptorSet: Manage how shaders access resources.
+
+Semaphore, Fence: Synchronize GPU operations.
+
+4. Audio System (OpenAL)
+Handles all sound playback, 3D audio, and music.
+
+Header Files:
+
+AudioManager.hpp: Manages OpenAL context and devices.
+
+Sound.hpp: Represents an audio buffer (e.g., loaded WAV file).
+
+AudioSource.hpp: Represents a point in space emitting sound.
+
+AudioListener.hpp: Represents the listener (usually the camera).
+
+Classes:
+
+AudioManager: Initializes OpenAL, manages sound buffers and sources, updates listener position.
+
+Sound: Loads audio data (e.g., from .wav, .ogg) into an OpenAL buffer.
+
+AudioSource: Attaches a Sound to a game object, controls playback (play, pause, stop), volume, pitch, and 3D position.
+
+AudioListener: Sets the listener's position and orientation in the 3D world.
+
+5. Scene Management (Entity-Component System)
+Organizes game objects and their properties. An Entity-Component-System (ECS) is a popular paradigm.
+
+Header Files:
+
+Scene.hpp: Contains all game objects and systems for a particular level/state.
+
+GameObject.hpp: A unique ID that groups components.
+
+Component.hpp: Base class for all components.
+
+TransformComponent.hpp: Manages position, rotation, scale.
+
+MeshRendererComponent.hpp: Links a GameObject to a Mesh and Material for rendering.
+
+LightComponent.hpp: Defines properties of a light source (point, directional, spot).
+
+CameraComponent.hpp: Attaches a Camera to a GameObject.
+
+ScriptComponent.hpp: Allows attaching user-defined script behavior (e.g., Lua scripts, or C++ derived classes).
+
+ECS.hpp: Core ECS classes (e.g., Entity, ComponentPool, System).
+
+Classes:
+
+Scene: Manages the collection of GameObjects and their components. Also orchestrates system updates.
+
+GameObject: An empty container, primarily identified by an ID, to which Components are attached.
+
+Component: Base class for all functionalities (e.g., TransformComponent, MeshRendererComponent, AudioSourceComponent, PhysicsBodyComponent).
+
+System: Processes GameObjects with specific components (e.g., RenderSystem iterates over GameObjects with MeshRendererComponent and TransformComponent).
+
+6. Resource Management
+Loads, unloads, and caches assets like models, textures, and sounds.
+
+Header Files:
+
+ResourceManager.hpp: Central manager for all assets.
+
+AssetLoader.hpp: Base interface for loading different asset types.
+
+TextureLoader.hpp: Loads image files into VulkanTexture objects.
+
+ModelLoader.hpp: Loads 3D model files (e.g., glTF, OBJ) into Mesh objects.
+
+ShaderLoader.hpp: Loads shader source code and creates ShaderModules.
+
+SoundLoader.hpp: Loads audio files into Sound objects.
+
+Classes:
+
+ResourceManager: Provides methods like LoadTexture("path/to/texture.png"), which will check a cache first, then use a TextureLoader if not found.
+
+ITextureLoader, IModelLoader, etc.: Interfaces for specific asset loaders.
+
+7. Math & Utilities
+Fundamental mathematical operations and common helper functions.
+
+Header Files:
+
+MathTypes.hpp: Defines basic math types (vectors, matrices, quaternions).
+
+Vector.hpp: Vector2, Vector3, Vector4 classes.
+
+Matrix.hpp: Matrix3, Matrix4 classes (for transformations).
+
+Quaternion.hpp: For rotations.
+
+Utils.hpp: General utility functions (file IO helpers, string manipulation).
+
+Classes:
+
+Vector2, Vector3, Vector4: For positions, directions, colors.
+
+Matrix3, Matrix4: For transformations, camera views, projections.
+
+Quaternion: For rotations without gimbal lock.
+
+8. Optional Systems (Highly Recommended)
+Physics System:
+
+PhysicsEngine.hpp: Manages collision detection and rigid body dynamics.
+
+RigidBodyComponent.hpp: Attaches physics properties to a GameObject.
+
+ColliderComponent.hpp: Defines collision shapes (box, sphere, mesh).
+
+Animation System:
+
+AnimationComponent.hpp: Manages skeletal animation playback.
+
+Animator.hpp: Interpolates between keyframes.
+
+Skeleton.hpp: Bone hierarchy and inverse bind poses.
+
+Editor System:
+
+Editor.hpp: An in-engine editor built with ImGui for debugging, scene editing.
+
+Header File Naming Convention
+It's standard practice in C++ to use .hpp for header files that contain class declarations and definitions, reserving .h for C-style headers or very simple declarations. Your existing use of .hpp is consistent with modern C++ projects.
+
+This structure provides a comprehensive, yet flexible, foundation for your game engine. Each system can be developed and tested somewhat independently, making the monumental task more manageable. Good luck with your engine development!
+
+Game Engine Development Roadmap
+This roadmap outlines a phased approach to building your game engine. Each phase builds upon the previous one, introducing core functionalities and gradually adding more advanced features. Remember that this is an iterative process, and you might revisit earlier phases to refine or optimize components.
+
+Phase 0: Foundation & Project Setup (Weeks 1-2)
+Goal: Establish the basic project structure, build system, windowing, and logging.
+
+Project Setup:
+
+Set up CMake for cross-platform builds.
+
+Define directory structure (src/, include/, res/, build/, lib/).
+
+Integrate GLFW for window management.
+
+Basic main.cpp to create a window.
+
+Core Utilities:
+
+Implement a robust logging system (EngineLogger.hpp).
+
+Basic Timer.hpp for delta time calculation.
+
+Fundamental Math types (Vector.hpp, Matrix.hpp, Quaternion.hpp - initial versions).
+
+Build & Debugging:
+
+Ensure a working build pipeline for Windows/Linux/macOS (if targeting cross-platform).
+
+Set up debugger integration for your IDE.
+
+Phase 1: Vulkan Renderer Core (Weeks 3-6)
+Goal: Initialize Vulkan and render a simple triangle or colored rectangle.
+
+Vulkan Initialization:
+
+VulkanContext.hpp: Create Vulkan instance, setup debug callback (validation layers).
+
+Device.hpp: Select physical device, create logical device, get queue families.
+
+SwapChain.hpp: Create swap chain, image views, and setup surface.
+
+Rendering Pipeline Basics:
+
+Shader.hpp: Load SPIR-V shaders (initially simple vertex/fragment).
+
+RenderPass.hpp: Define a basic render pass.
+
+GraphicsPipeline.hpp: Create the first graphics pipeline.
+
+FrameBuffer.hpp: Create frame buffers for swap chain images.
+
+CommandPool.hpp & CommandBuffer.hpp: Create command pools and allocate primary command buffers.
+
+Synchronization.hpp: Implement semaphores and fences for basic rendering synchronization.
+
+First Render:
+
+Record commands to draw a hardcoded triangle or square with basic colors.
+
+Present the rendered image to the screen.
+
+Phase 2: Mesh & Texture Rendering (Weeks 7-10)
+Goal: Render 3D models with basic textures.
+
+Vulkan Buffers:
+
+Buffer.hpp: Implement vertex buffers, index buffers, and uniform buffers.
+
+Staging buffers for data transfer to GPU.
+
+Textures:
+
+Texture.hpp: Load image data (e.g., using stb_image.h) into Vulkan images.
+
+Implement image views and samplers.
+
+Basic texture binding to shaders.
+
+Model Loading:
+
+Mesh.hpp: Structure for storing vertex, index, and material data.
+
+ModelLoader.hpp: Implement a simple model loader (e.g., for OBJ files).
+
+Descriptor Sets:
+
+DescriptorSetManager.hpp: Manage descriptor set layouts and allocation of descriptor sets for uniforms and textures.
+
+Camera System:
+
+Camera.hpp: Implement a basic camera (perspective projection, view matrix).
+
+Update uniform buffer with camera matrices.
+
+Phase 3: Input & Scene Graph (Weeks 11-14)
+Goal: Enable user interaction and organize game objects in a scene.
+
+Input System:
+
+InputManager.hpp: Central input handler.
+
+Keyboard.hpp, Mouse.hpp: Query key/mouse button states.
+
+Connect GLFW input callbacks to the engine's input system.
+
+Implement camera controls using input.
+
+Entity-Component-System (ECS) Foundation:
+
+ECS.hpp: Define Entity (just an ID), Component base class.
+
+TransformComponent.hpp: Basic position, rotation, scale component.
+
+MeshRendererComponent.hpp: Links an Entity to a Mesh and Material.
+
+Scene.hpp: A class to hold and manage entities and components.
+
+Basic RenderSystem to iterate entities with MeshRendererComponent and TransformComponent.
+
+Phase 4: Audio System & Resource Management (Weeks 15-18)
+Goal: Add sound capabilities and a robust asset management system.
+
+OpenAL Integration:
+
+AudioManager.hpp: Initialize OpenAL, manage context and device.
+
+Sound.hpp: Load audio files (e.g., WAV, OGG) into OpenAL buffers.
+
+AudioSource.hpp: Play sounds, manage volume, pitch, 3D position.
+
+AudioListener.hpp: Set listener's position and orientation (usually linked to camera).
+
+Resource Manager:
+
+ResourceManager.hpp: Centralized manager for textures, models, sounds, shaders.
+
+Implement caching to avoid reloading assets.
+
+Use the AssetLoader.hpp interface and concrete loaders (TextureLoader.hpp, ModelLoader.hpp, SoundLoader.hpp).
+
+Utility Refinement:
+
+Expand File.hpp (or FileSystem.hpp) with robust path manipulation and file I/O.
+
+Implement additional string utilities.
+
+Phase 5: Advanced Rendering & Lighting (Weeks 19-24)
+Goal: Implement more realistic lighting and rendering techniques.
+
+Material System:
+
+Material.hpp: Define a more comprehensive material concept (albedo, metallic, roughness, normal maps).
+
+Integrate PBR (Physically Based Rendering) shaders.
+
+Lighting:
+
+LightComponent.hpp: Implement directional, point, and spot lights.
+
+Pass light data to shaders.
+
+Shadows:
+
+Basic shadow mapping (directional light shadows first).
+
+Render shadow map, then use it in the main render pass.
+
+Post-Processing (Optional):
+
+Implement a simple post-processing pipeline (e.g., color correction, bloom).
+
+Phase 6: Physics & Animation (Weeks 25-30)
+Goal: Add physical interactions and skeletal animation.
+
+Physics Integration:
+
+Integrate a physics library (e.g., Bullet Physics or PhysX, or a simpler custom solution).
+
+PhysicsEngine.hpp: Manage physics world.
+
+RigidBodyComponent.hpp: Attach physical properties (mass, friction, restitution).
+
+ColliderComponent.hpp: Define collision shapes (box, sphere, capsule).
+
+Update TransformComponent based on physics simulation.
+
+Skeletal Animation:
+
+AnimationComponent.hpp: Play and control animations.
+
+Animator.hpp: Handle animation blending and state machines.
+
+Load animated models (e.g., glTF with animations).
+
+Pass bone transforms to shaders for skinning.
+
+Phase 7: Tooling & Optimization (Weeks 31-36)
+Goal: Enhance workflow with editor tools and improve performance.
+
+In-Engine Editor:
+
+Integrate ImGui for a basic GUI.
+
+Allow inspecting and editing GameObject properties (transforms, components).
+
+Basic scene hierarchy view.
+
+Profiling & Debugging Tools:
+
+Implement in-engine performance metrics (FPS, frame time, memory usage).
+
+Basic render graph visualization (optional, advanced).
+
+Optimization:
+
+Implement frustum culling to avoid rendering off-screen objects.
+
+Instancing for drawing many similar objects efficiently.
+
+Explore multi-threading for asset loading or scene updates.
+
+Phase 8: Game Logic & Scripting (Weeks 37+)
+Goal: Enable game-specific logic and potentially extend engine capabilities through scripting.
+
+Game Logic Framework:
+
+Define how game-specific code interacts with engine systems.
+
+State machine patterns for game states (main menu, gameplay, pause).
+
+Scripting (Optional but highly recommended):
+
+Integrate a scripting language (e.g., Lua) to allow designers/developers to write game logic without recompiling the engine.
+
+Expose core engine functionalities to the scripting environment.
+
+This roadmap is flexible and can be adapted based on your learning pace, specific interests, and project goals. Remember to focus on one feature at a time, test thoroughly, and refactor as you gain more experience. Good luck!
