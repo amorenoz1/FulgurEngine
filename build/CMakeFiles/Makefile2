@@ -85,12 +85,12 @@ clean: CMakeFiles/FulgurEngine.dir/clean
 CMakeFiles/FulgurEngine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target FulgurEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target FulgurEngine"
 .PHONY : CMakeFiles/FulgurEngine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FulgurEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FulgurEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles 0
 .PHONY : CMakeFiles/FulgurEngine.dir/rule
@@ -102,7 +102,7 @@ FulgurEngine: CMakeFiles/FulgurEngine.dir/rule
 # codegen rule for target.
 CMakeFiles/FulgurEngine.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Finished codegen for target FulgurEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target FulgurEngine"
 .PHONY : CMakeFiles/FulgurEngine.dir/codegen
 
 # clean rule for target.

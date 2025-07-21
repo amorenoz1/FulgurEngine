@@ -153,270 +153,6 @@ src/engine/Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.s
 .PHONY : src/engine/Application.cpp.s
 
-src/engine/Window.o: src/engine/Window.cpp.o
-.PHONY : src/engine/Window.o
-
-# target to build an object file
-src/engine/Window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o
-.PHONY : src/engine/Window.cpp.o
-
-src/engine/Window.i: src/engine/Window.cpp.i
-.PHONY : src/engine/Window.i
-
-# target to preprocess a source file
-src/engine/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.i
-.PHONY : src/engine/Window.cpp.i
-
-src/engine/Window.s: src/engine/Window.cpp.s
-.PHONY : src/engine/Window.s
-
-# target to generate assembly for a file
-src/engine/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.s
-.PHONY : src/engine/Window.cpp.s
-
-src/gfx/Shader.o: src/gfx/Shader.cpp.o
-.PHONY : src/gfx/Shader.o
-
-# target to build an object file
-src/gfx/Shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o
-.PHONY : src/gfx/Shader.cpp.o
-
-src/gfx/Shader.i: src/gfx/Shader.cpp.i
-.PHONY : src/gfx/Shader.i
-
-# target to preprocess a source file
-src/gfx/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.i
-.PHONY : src/gfx/Shader.cpp.i
-
-src/gfx/Shader.s: src/gfx/Shader.cpp.s
-.PHONY : src/gfx/Shader.s
-
-# target to generate assembly for a file
-src/gfx/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.s
-.PHONY : src/gfx/Shader.cpp.s
-
-src/gfx/VulkanCommandBuffer.o: src/gfx/VulkanCommandBuffer.cpp.o
-.PHONY : src/gfx/VulkanCommandBuffer.o
-
-# target to build an object file
-src/gfx/VulkanCommandBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o
-.PHONY : src/gfx/VulkanCommandBuffer.cpp.o
-
-src/gfx/VulkanCommandBuffer.i: src/gfx/VulkanCommandBuffer.cpp.i
-.PHONY : src/gfx/VulkanCommandBuffer.i
-
-# target to preprocess a source file
-src/gfx/VulkanCommandBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.i
-.PHONY : src/gfx/VulkanCommandBuffer.cpp.i
-
-src/gfx/VulkanCommandBuffer.s: src/gfx/VulkanCommandBuffer.cpp.s
-.PHONY : src/gfx/VulkanCommandBuffer.s
-
-# target to generate assembly for a file
-src/gfx/VulkanCommandBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.s
-.PHONY : src/gfx/VulkanCommandBuffer.cpp.s
-
-src/gfx/VulkanCommandPool.o: src/gfx/VulkanCommandPool.cpp.o
-.PHONY : src/gfx/VulkanCommandPool.o
-
-# target to build an object file
-src/gfx/VulkanCommandPool.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o
-.PHONY : src/gfx/VulkanCommandPool.cpp.o
-
-src/gfx/VulkanCommandPool.i: src/gfx/VulkanCommandPool.cpp.i
-.PHONY : src/gfx/VulkanCommandPool.i
-
-# target to preprocess a source file
-src/gfx/VulkanCommandPool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.i
-.PHONY : src/gfx/VulkanCommandPool.cpp.i
-
-src/gfx/VulkanCommandPool.s: src/gfx/VulkanCommandPool.cpp.s
-.PHONY : src/gfx/VulkanCommandPool.s
-
-# target to generate assembly for a file
-src/gfx/VulkanCommandPool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.s
-.PHONY : src/gfx/VulkanCommandPool.cpp.s
-
-src/gfx/VulkanContext.o: src/gfx/VulkanContext.cpp.o
-.PHONY : src/gfx/VulkanContext.o
-
-# target to build an object file
-src/gfx/VulkanContext.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o
-.PHONY : src/gfx/VulkanContext.cpp.o
-
-src/gfx/VulkanContext.i: src/gfx/VulkanContext.cpp.i
-.PHONY : src/gfx/VulkanContext.i
-
-# target to preprocess a source file
-src/gfx/VulkanContext.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.i
-.PHONY : src/gfx/VulkanContext.cpp.i
-
-src/gfx/VulkanContext.s: src/gfx/VulkanContext.cpp.s
-.PHONY : src/gfx/VulkanContext.s
-
-# target to generate assembly for a file
-src/gfx/VulkanContext.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.s
-.PHONY : src/gfx/VulkanContext.cpp.s
-
-src/gfx/VulkanDevice.o: src/gfx/VulkanDevice.cpp.o
-.PHONY : src/gfx/VulkanDevice.o
-
-# target to build an object file
-src/gfx/VulkanDevice.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o
-.PHONY : src/gfx/VulkanDevice.cpp.o
-
-src/gfx/VulkanDevice.i: src/gfx/VulkanDevice.cpp.i
-.PHONY : src/gfx/VulkanDevice.i
-
-# target to preprocess a source file
-src/gfx/VulkanDevice.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.i
-.PHONY : src/gfx/VulkanDevice.cpp.i
-
-src/gfx/VulkanDevice.s: src/gfx/VulkanDevice.cpp.s
-.PHONY : src/gfx/VulkanDevice.s
-
-# target to generate assembly for a file
-src/gfx/VulkanDevice.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.s
-.PHONY : src/gfx/VulkanDevice.cpp.s
-
-src/gfx/VulkanFrameBuffer.o: src/gfx/VulkanFrameBuffer.cpp.o
-.PHONY : src/gfx/VulkanFrameBuffer.o
-
-# target to build an object file
-src/gfx/VulkanFrameBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o
-.PHONY : src/gfx/VulkanFrameBuffer.cpp.o
-
-src/gfx/VulkanFrameBuffer.i: src/gfx/VulkanFrameBuffer.cpp.i
-.PHONY : src/gfx/VulkanFrameBuffer.i
-
-# target to preprocess a source file
-src/gfx/VulkanFrameBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.i
-.PHONY : src/gfx/VulkanFrameBuffer.cpp.i
-
-src/gfx/VulkanFrameBuffer.s: src/gfx/VulkanFrameBuffer.cpp.s
-.PHONY : src/gfx/VulkanFrameBuffer.s
-
-# target to generate assembly for a file
-src/gfx/VulkanFrameBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.s
-.PHONY : src/gfx/VulkanFrameBuffer.cpp.s
-
-src/gfx/VulkanGraphicsPipeline.o: src/gfx/VulkanGraphicsPipeline.cpp.o
-.PHONY : src/gfx/VulkanGraphicsPipeline.o
-
-# target to build an object file
-src/gfx/VulkanGraphicsPipeline.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o
-.PHONY : src/gfx/VulkanGraphicsPipeline.cpp.o
-
-src/gfx/VulkanGraphicsPipeline.i: src/gfx/VulkanGraphicsPipeline.cpp.i
-.PHONY : src/gfx/VulkanGraphicsPipeline.i
-
-# target to preprocess a source file
-src/gfx/VulkanGraphicsPipeline.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.i
-.PHONY : src/gfx/VulkanGraphicsPipeline.cpp.i
-
-src/gfx/VulkanGraphicsPipeline.s: src/gfx/VulkanGraphicsPipeline.cpp.s
-.PHONY : src/gfx/VulkanGraphicsPipeline.s
-
-# target to generate assembly for a file
-src/gfx/VulkanGraphicsPipeline.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.s
-.PHONY : src/gfx/VulkanGraphicsPipeline.cpp.s
-
-src/gfx/VulkanQueue.o: src/gfx/VulkanQueue.cpp.o
-.PHONY : src/gfx/VulkanQueue.o
-
-# target to build an object file
-src/gfx/VulkanQueue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o
-.PHONY : src/gfx/VulkanQueue.cpp.o
-
-src/gfx/VulkanQueue.i: src/gfx/VulkanQueue.cpp.i
-.PHONY : src/gfx/VulkanQueue.i
-
-# target to preprocess a source file
-src/gfx/VulkanQueue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.i
-.PHONY : src/gfx/VulkanQueue.cpp.i
-
-src/gfx/VulkanQueue.s: src/gfx/VulkanQueue.cpp.s
-.PHONY : src/gfx/VulkanQueue.s
-
-# target to generate assembly for a file
-src/gfx/VulkanQueue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.s
-.PHONY : src/gfx/VulkanQueue.cpp.s
-
-src/gfx/VulkanSwapChain.o: src/gfx/VulkanSwapChain.cpp.o
-.PHONY : src/gfx/VulkanSwapChain.o
-
-# target to build an object file
-src/gfx/VulkanSwapChain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o
-.PHONY : src/gfx/VulkanSwapChain.cpp.o
-
-src/gfx/VulkanSwapChain.i: src/gfx/VulkanSwapChain.cpp.i
-.PHONY : src/gfx/VulkanSwapChain.i
-
-# target to preprocess a source file
-src/gfx/VulkanSwapChain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.i
-.PHONY : src/gfx/VulkanSwapChain.cpp.i
-
-src/gfx/VulkanSwapChain.s: src/gfx/VulkanSwapChain.cpp.s
-.PHONY : src/gfx/VulkanSwapChain.s
-
-# target to generate assembly for a file
-src/gfx/VulkanSwapChain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.s
-.PHONY : src/gfx/VulkanSwapChain.cpp.s
-
-src/gfx/VulkanSynchronization.o: src/gfx/VulkanSynchronization.cpp.o
-.PHONY : src/gfx/VulkanSynchronization.o
-
-# target to build an object file
-src/gfx/VulkanSynchronization.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o
-.PHONY : src/gfx/VulkanSynchronization.cpp.o
-
-src/gfx/VulkanSynchronization.i: src/gfx/VulkanSynchronization.cpp.i
-.PHONY : src/gfx/VulkanSynchronization.i
-
-# target to preprocess a source file
-src/gfx/VulkanSynchronization.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.i
-.PHONY : src/gfx/VulkanSynchronization.cpp.i
-
-src/gfx/VulkanSynchronization.s: src/gfx/VulkanSynchronization.cpp.s
-.PHONY : src/gfx/VulkanSynchronization.s
-
-# target to generate assembly for a file
-src/gfx/VulkanSynchronization.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.s
-.PHONY : src/gfx/VulkanSynchronization.cpp.s
-
 src/utils/FulgurUtils.o: src/utils/FulgurUtils.cpp.o
 .PHONY : src/utils/FulgurUtils.o
 
@@ -513,6 +249,30 @@ src/utils/Time.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.s
 .PHONY : src/utils/Time.cpp.s
 
+vendor/glad.o: vendor/glad.c.o
+.PHONY : vendor/glad.o
+
+# target to build an object file
+vendor/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/vendor/glad.c.o
+.PHONY : vendor/glad.c.o
+
+vendor/glad.i: vendor/glad.c.i
+.PHONY : vendor/glad.i
+
+# target to preprocess a source file
+vendor/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/vendor/glad.c.i
+.PHONY : vendor/glad.c.i
+
+vendor/glad.s: vendor/glad.c.s
+.PHONY : vendor/glad.s
+
+# target to generate assembly for a file
+vendor/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FulgurEngine.dir/build.make CMakeFiles/FulgurEngine.dir/vendor/glad.c.s
+.PHONY : vendor/glad.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -525,39 +285,6 @@ help:
 	@echo "... src/engine/Application.o"
 	@echo "... src/engine/Application.i"
 	@echo "... src/engine/Application.s"
-	@echo "... src/engine/Window.o"
-	@echo "... src/engine/Window.i"
-	@echo "... src/engine/Window.s"
-	@echo "... src/gfx/Shader.o"
-	@echo "... src/gfx/Shader.i"
-	@echo "... src/gfx/Shader.s"
-	@echo "... src/gfx/VulkanCommandBuffer.o"
-	@echo "... src/gfx/VulkanCommandBuffer.i"
-	@echo "... src/gfx/VulkanCommandBuffer.s"
-	@echo "... src/gfx/VulkanCommandPool.o"
-	@echo "... src/gfx/VulkanCommandPool.i"
-	@echo "... src/gfx/VulkanCommandPool.s"
-	@echo "... src/gfx/VulkanContext.o"
-	@echo "... src/gfx/VulkanContext.i"
-	@echo "... src/gfx/VulkanContext.s"
-	@echo "... src/gfx/VulkanDevice.o"
-	@echo "... src/gfx/VulkanDevice.i"
-	@echo "... src/gfx/VulkanDevice.s"
-	@echo "... src/gfx/VulkanFrameBuffer.o"
-	@echo "... src/gfx/VulkanFrameBuffer.i"
-	@echo "... src/gfx/VulkanFrameBuffer.s"
-	@echo "... src/gfx/VulkanGraphicsPipeline.o"
-	@echo "... src/gfx/VulkanGraphicsPipeline.i"
-	@echo "... src/gfx/VulkanGraphicsPipeline.s"
-	@echo "... src/gfx/VulkanQueue.o"
-	@echo "... src/gfx/VulkanQueue.i"
-	@echo "... src/gfx/VulkanQueue.s"
-	@echo "... src/gfx/VulkanSwapChain.o"
-	@echo "... src/gfx/VulkanSwapChain.i"
-	@echo "... src/gfx/VulkanSwapChain.s"
-	@echo "... src/gfx/VulkanSynchronization.o"
-	@echo "... src/gfx/VulkanSynchronization.i"
-	@echo "... src/gfx/VulkanSynchronization.s"
 	@echo "... src/utils/FulgurUtils.o"
 	@echo "... src/utils/FulgurUtils.i"
 	@echo "... src/utils/FulgurUtils.s"
@@ -570,6 +297,9 @@ help:
 	@echo "... src/utils/Time.o"
 	@echo "... src/utils/Time.i"
 	@echo "... src/utils/Time.s"
+	@echo "... vendor/glad.o"
+	@echo "... vendor/glad.i"
+	@echo "... vendor/glad.s"
 .PHONY : help
 
 

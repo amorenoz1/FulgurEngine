@@ -1,8 +1,68 @@
+# .clang-format
+
+# Base style
 BasedOnStyle: LLVM
+
+# Indentation
 IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# Braces
+BreakBeforeBraces: Allman  # Puts opening braces on new lines
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: false
+
+# Spaces
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceInEmptyParentheses: false
+SpaceAfterCStyleCast: true
+
+# Line length
 ColumnLimit: 100
 
-Language: Cpp
-DerivePointerAlignment: false
-PointerAlignment: Left
+# Alignments
+AlignAfterOpenBracket: Align
+AlignOperands: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
 
+# Includes
+IncludeBlocks: Preserve
+IncludeCategories:
+  - Regex:           '^<.*\.hpp>'
+    Priority:        1
+    SortPriority:    0
+    CaseSensitive:   false
+  - Regex:           '^".*\.hpp"'
+    Priority:        2
+    SortPriority:    1
+    CaseSensitive:   false
+SortIncludes: true
+IncludeIsMainRegex: '(Test)?$'
+
+# Reflowing comments
+ReflowComments: true
+CommentPragmas: '^ IWYU pragma:'
+
+# C++11/14/17 Features
+Cpp11BracedListStyle: true
+AllowShortBlocksOnASingleLine: false
+AlwaysBreakTemplateDeclarations: Yes
+BreakConstructorInitializers: BeforeColon
+
+# Member initializer lists
+ConstructorInitializerIndentWidth: 4
+
+# Namespace handling
+NamespaceIndentation: All
+IndentCaseLabels: true
+BreakBeforeInheritanceComma: false
+BreakInheritanceList: BeforeColon
+
+# Misc
+SortUsingDeclarations: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+EmptyLineBeforeAccessModifier: Always

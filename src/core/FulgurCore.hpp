@@ -1,7 +1,16 @@
 #pragma once
 
-#define GLFW_INCLUDE_VULKAN
+#ifdef _WIN32
+#ifdef FULGUR_EXPORTS
+#define FGAPI __declspec(dllexport)
+#else
+#define FGAPI __declspec(dllimport)
+#endif
+#else
+#define FGAPI
+#endif
+
+#include "glad.h"
 #include <GLFW/glfw3.h>
 
-#define MAX_FRAMES_IN_FLIGHT 2
-#define DEBUG
+#include "glm/glm.hpp"

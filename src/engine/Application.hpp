@@ -1,21 +1,16 @@
 #pragma once
+#include "core/FulgurCore.hpp"
 
-#include "Window.hpp"
-#include <cstdint>
+namespace Fulgur
+{
 
-namespace Fulgur {
+    class FGAPI Application
+    {
+      private:
 
-class Application {
-  private:
-    Window m_Window;
+      protected:
 
-    void MainLoop();
-
-  protected:
-  public:
-    Application(const std::int32_t width, const std::int32_t height, const std::string& title);
-    ~Application() = default;
-    void Run();
-};
+      public:
+    };
 
 } // namespace Fulgur

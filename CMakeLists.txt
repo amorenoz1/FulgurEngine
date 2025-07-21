@@ -11,33 +11,30 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/lib")
 
 find_package(glfw3 CONFIG REQUIRED)
 find_package(Vulkan REQUIRED)
+find_package(OpenGL REQUIRED)
 find_package(OpenAL REQUIRED)
 find_package(Freetype REQUIRED)
 find_package(GLM REQUIRED)
 
 add_library(
-    FulgurEngine STATIC
+    FulgurEngine SHARED
     src/utils/ThreadPool.cpp
     src/utils/FulgurUtils.cpp
     src/utils/Logger.cpp
     src/utils/Time.cpp
-    src/gfx/Shader.cpp
-    src/gfx/VulkanCommandBuffer.cpp
-    src/gfx/VulkanCommandPool.cpp
-    src/gfx/VulkanContext.cpp
-    src/gfx/VulkanDevice.cpp
-    src/gfx/VulkanFrameBuffer.cpp
-    src/gfx/VulkanGraphicsPipeline.cpp
-    src/gfx/VulkanQueue.cpp
-    src/gfx/VulkanSwapChain.cpp
-    src/gfx/VulkanSynchronization.cpp
-    src/engine/Window.cpp
     src/engine/Application.cpp
+    vendor/glad.c
 )
+
+target_compile_definitions(FulgurEngine PUBLIC FULGUR_EXPORTS)
+
+target_compile_options(FulgurEngine PUBLIC -Wall -Wextra -g)
 
 target_include_directories(
     FulgurEngine PUBLIC 
     src
+    vendor
+    ${OPENGL_INCLUDE_DIR}
     ${GLM_INCLUDE_DIRS}
     ${FREETYPE_INCLUDE_DIRS}
     ${OPENAL_INCLUDE_DIR}
@@ -47,6 +44,7 @@ target_include_directories(
 target_link_libraries(
     FulgurEngine PUBLIC
     glfw
+    ${OPENGL_gl_LIBRARY}
     ${GLM_LIBRARIES_DIRS}
     ${OPENAL_LIBRARY}
     ${FREETYPE_LIBRARY_RELEASE}

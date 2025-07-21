@@ -128,164 +128,10 @@ CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/Time.cpp -o CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.s
 
-CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/Shader.cpp
-CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/Shader.cpp
-
-CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/Shader.cpp > CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/Shader.cpp -o CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.s
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandBuffer.cpp
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandBuffer.cpp
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandBuffer.cpp > CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandBuffer.cpp -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.s
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandPool.cpp
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandPool.cpp
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandPool.cpp > CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandPool.cpp -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.s
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanContext.cpp
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanContext.cpp
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanContext.cpp > CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanContext.cpp -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.s
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanDevice.cpp
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanDevice.cpp
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanDevice.cpp > CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanDevice.cpp -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.s
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanFrameBuffer.cpp
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanFrameBuffer.cpp
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanFrameBuffer.cpp > CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanFrameBuffer.cpp -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.s
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanGraphicsPipeline.cpp
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanGraphicsPipeline.cpp
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanGraphicsPipeline.cpp > CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanGraphicsPipeline.cpp -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.s
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanQueue.cpp
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanQueue.cpp
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanQueue.cpp > CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanQueue.cpp -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.s
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSwapChain.cpp
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSwapChain.cpp
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSwapChain.cpp > CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSwapChain.cpp -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.s
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSynchronization.cpp
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSynchronization.cpp
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSynchronization.cpp > CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSynchronization.cpp -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.s
-
-CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
-CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Window.cpp
-CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Window.cpp
-
-CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Window.cpp > CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.i
-
-CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Window.cpp -o CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.s
-
 CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o: CMakeFiles/FulgurEngine.dir/flags.make
 CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Application.cpp
 CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o -MF CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o.d -o CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Application.cpp
 
 CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.i: cmake_force
@@ -296,52 +142,48 @@ CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Application.cpp -o CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.s
 
+CMakeFiles/FulgurEngine.dir/vendor/glad.c.o: CMakeFiles/FulgurEngine.dir/flags.make
+CMakeFiles/FulgurEngine.dir/vendor/glad.c.o: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor/glad.c
+CMakeFiles/FulgurEngine.dir/vendor/glad.c.o: CMakeFiles/FulgurEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/FulgurEngine.dir/vendor/glad.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FulgurEngine.dir/vendor/glad.c.o -MF CMakeFiles/FulgurEngine.dir/vendor/glad.c.o.d -o CMakeFiles/FulgurEngine.dir/vendor/glad.c.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor/glad.c
+
+CMakeFiles/FulgurEngine.dir/vendor/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FulgurEngine.dir/vendor/glad.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor/glad.c > CMakeFiles/FulgurEngine.dir/vendor/glad.c.i
+
+CMakeFiles/FulgurEngine.dir/vendor/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FulgurEngine.dir/vendor/glad.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor/glad.c -o CMakeFiles/FulgurEngine.dir/vendor/glad.c.s
+
 # Object files for target FulgurEngine
 FulgurEngine_OBJECTS = \
 "CMakeFiles/FulgurEngine.dir/src/utils/ThreadPool.cpp.o" \
 "CMakeFiles/FulgurEngine.dir/src/utils/FulgurUtils.cpp.o" \
 "CMakeFiles/FulgurEngine.dir/src/utils/Logger.cpp.o" \
 "CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o" \
-"CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o"
+"CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o" \
+"CMakeFiles/FulgurEngine.dir/vendor/glad.c.o"
 
 # External object files for target FulgurEngine
 FulgurEngine_EXTERNAL_OBJECTS =
 
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/utils/ThreadPool.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/utils/FulgurUtils.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/utils/Logger.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/build.make
-/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a: CMakeFiles/FulgurEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a"
-	$(CMAKE_COMMAND) -P CMakeFiles/FulgurEngine.dir/cmake_clean_target.cmake
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: CMakeFiles/FulgurEngine.dir/src/utils/ThreadPool.cpp.o
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: CMakeFiles/FulgurEngine.dir/src/utils/FulgurUtils.cpp.o
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: CMakeFiles/FulgurEngine.dir/src/utils/Logger.cpp.o
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.o
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: CMakeFiles/FulgurEngine.dir/vendor/glad.c.o
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: CMakeFiles/FulgurEngine.dir/build.make
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: /usr/local/lib/libglfw.3.4.dylib
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: /usr/local/lib/libfreetype.dylib
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: /usr/local/lib/libvulkan.dylib
+/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib: CMakeFiles/FulgurEngine.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FulgurEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/FulgurEngine.dir/build: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.a
+CMakeFiles/FulgurEngine.dir/build: /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/lib/libFulgurEngine.dylib
 .PHONY : CMakeFiles/FulgurEngine.dir/build
 
 CMakeFiles/FulgurEngine.dir/clean:

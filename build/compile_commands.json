@@ -1,98 +1,38 @@
 [
 {
   "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/utils/ThreadPool.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/ThreadPool.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFULGUR_EXPORTS -DFulgurEngine_EXPORTS -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -fPIC -Wall -Wextra -g -o CMakeFiles/FulgurEngine.dir/src/utils/ThreadPool.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/ThreadPool.cpp",
   "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/ThreadPool.cpp",
   "output": "CMakeFiles/FulgurEngine.dir/src/utils/ThreadPool.cpp.o"
 },
 {
   "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/utils/FulgurUtils.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/FulgurUtils.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFULGUR_EXPORTS -DFulgurEngine_EXPORTS -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -fPIC -Wall -Wextra -g -o CMakeFiles/FulgurEngine.dir/src/utils/FulgurUtils.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/FulgurUtils.cpp",
   "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/FulgurUtils.cpp",
   "output": "CMakeFiles/FulgurEngine.dir/src/utils/FulgurUtils.cpp.o"
 },
 {
   "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/utils/Logger.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/Logger.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFULGUR_EXPORTS -DFulgurEngine_EXPORTS -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -fPIC -Wall -Wextra -g -o CMakeFiles/FulgurEngine.dir/src/utils/Logger.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/Logger.cpp",
   "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/Logger.cpp",
   "output": "CMakeFiles/FulgurEngine.dir/src/utils/Logger.cpp.o"
 },
 {
   "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/Time.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFULGUR_EXPORTS -DFulgurEngine_EXPORTS -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -fPIC -Wall -Wextra -g -o CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/Time.cpp",
   "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/utils/Time.cpp",
   "output": "CMakeFiles/FulgurEngine.dir/src/utils/Time.cpp.o"
 },
 {
   "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/Shader.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/Shader.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/gfx/Shader.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandBuffer.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandBuffer.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandBuffer.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandPool.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanCommandPool.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanCommandPool.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanContext.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanContext.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanContext.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanDevice.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanDevice.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanDevice.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanFrameBuffer.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanFrameBuffer.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanFrameBuffer.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanGraphicsPipeline.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanGraphicsPipeline.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanGraphicsPipeline.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanQueue.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanQueue.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanQueue.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSwapChain.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSwapChain.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSwapChain.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSynchronization.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/gfx/VulkanSynchronization.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/gfx/VulkanSynchronization.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Window.cpp",
-  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Window.cpp",
-  "output": "CMakeFiles/FulgurEngine.dir/src/engine/Window.cpp.o"
-},
-{
-  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -o CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Application.cpp",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DFULGUR_EXPORTS -DFulgurEngine_EXPORTS -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -isystem /usr/local/include -std=gnu++20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -fPIC -Wall -Wextra -g -o CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Application.cpp",
   "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src/engine/Application.cpp",
   "output": "CMakeFiles/FulgurEngine.dir/src/engine/Application.cpp.o"
+},
+{
+  "directory": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DFULGUR_EXPORTS -DFulgurEngine_EXPORTS -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/src -I/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -I/Library/Frameworks/Mono.framework/Headers -I/usr/local/include/freetype2 -I/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers -isystem /usr/local/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.7 -fPIC -Wall -Wextra -g -o CMakeFiles/FulgurEngine.dir/vendor/glad.c.o -c /Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor/glad.c",
+  "file": "/Users/mrphoonmoji/Projects/gitrepos/FulgurEngine/vendor/glad.c",
+  "output": "CMakeFiles/FulgurEngine.dir/vendor/glad.c.o"
 }
 ]
