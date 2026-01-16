@@ -15,8 +15,10 @@ find_package(OpenAL REQUIRED)
 
 add_executable(${PROJECT_NAME})
 
+enable_testing()
 add_subdirectory(src)
 add_subdirectory(vendor)
+add_subdirectory(tests)
 
 target_include_directories(
     ${PROJECT_NAME} PUBLIC
